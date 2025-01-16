@@ -3,48 +3,48 @@ Technical Foundation for  My Furniture Marketplace🔅
 1.Frontend
 2.Homepage
 
-Visually appealing with banners and featured categories (e.g., Living Room, Bedroom).
+*I Visually appealing with banners and featured categories (e.g., Living Room, Bedroom).
 Easy navigation for quick access to different categories and popular items.
 Product Listing:
 
-Displays items with image, name, price, and rating.
+*I Displays items with image, name, price, and rating.
 Filters for price, material, size, etc., and a search bar for easy product discovery.
 Product Details:
 
-Detailed page with images, descriptions, dimensions, pricing, and material information.
+*I Detailed page with images, descriptions, dimensions, pricing, and material information.
 Options for multiple images or 3D renders.
 Cart:
 
-Summary of selected items, with options to modify quantities, remove items, and view total price.
+Summary of my selected items
+With options to modify quantities, remove items, and view total price.
 Ability to apply discounts or promo codes.
-Checkout:
 
+Checkout:
 Simple interface to enter shipping details, select payment methods, and review the order.
 Order Confirmation:
 
 Displays order details, estimated delivery date, and tracking info.
 Thank you message and order ID.
-Sanity CMS
-Product Management:
+
+Sanity CMS:
 
 Manage detailed product info (name, price, images, etc.) and categories.
 Category Management:
-
-Categorize products for easy navigation (e.g., Living Room, Bedroom).
-Allow adding new categories.
+  Categorize products for easy navigation (e.g., Living Room, Bedroom).
+  Allow adding new categories.
+  
 Order Management:
-
 Track order status (pending, shipped, delivered) and manage payment and shipment details.
 Third-Party APIs
-Payment Gateway:
 
+Payment Gateway:
 Integration with Stripe or PayPal for secure transactions.
 Shipment Tracking:
 
 Integration with AfterShip or a local courier API for real-time shipment tracking.
-II. System Architecture Plan
-csharp
-Copy
+
+II. System Architecture Plan../
+
 [Frontend (Next.js)]  
      |
      v  
@@ -57,12 +57,14 @@ Copy
 [Third-Party APIs]  
     |-- Shipment Tracking API  
     |-- Payment Gateway  
+    
 Frontend: Built using Next.js for better performance and SEO.
 Sanity CMS: Central content repository for product and order management.
 Product Data API: Fetches product info from Sanity CMS.
 Third-Party APIs: Payment processing (Stripe/PayPal) and shipment tracking (AfterShip).
+
 III. API Requirements
-Fetch Products
+Fetch Products..........
 
 Endpoint: /products
 Method: GET
