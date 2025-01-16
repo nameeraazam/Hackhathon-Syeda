@@ -7,8 +7,8 @@ A solid technical foundation is key to building a successful product. Today, I o
 Built using Next.js to provide an optimized, lightning-fast user experience for our furniture customers.
 Ensured full responsiveness across devices for an enjoyable shopping experience on mobile, tablet, and desktop.
 Essential pages include Homepage, Product Catalog, Product Details, Cart, Checkout, and Order Confirmation.
-🔹 Backend & Database (Sanity CMS):
-
+🔹 Backend & Database
+(Sanity CMS):
 Sanity CMS will power the backend, handling product data (e.g., furniture specifications, images, and pricing), customer information, and order management.
 Defined and designed schemas in Sanity CMS to ensure smooth data management and alignment with business goals.
 Set up efficient content management to allow for easy updates and dynamic product handling (e.g., new arrivals, promotions, and inventory updates).
