@@ -1,5 +1,5 @@
 
-Technical Foundation for  My Furniture Marketplace🔅
+🎇Technical Foundation for  My Furniture Marketplace🔅
 1.Frontend
 2.Homepage
 
