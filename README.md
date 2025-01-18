@@ -1,91 +1,36 @@
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-🎇Technical Foundation for  My Furniture Marketplace🔅
-1.Frontend
-2.Homepage
+## Getting Started
 
-*I Visually appealing with banners and featured categories (e.g., Living Room, Bedroom).
-Easy navigation for quick access to different categories and popular items.
-Product Listing:
+First, run the development server:
 
-*I Displays items with image, name, price, and rating.
-Filters for price, material, size, etc., and a search bar for easy product discovery.
-Product Details:
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-*I Detailed page with images, descriptions, dimensions, pricing, and material information.
-Options for multiple images or 3D renders.
-Cart:
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Summary of my selected items
-With options to modify quantities, remove items, and view total price.
-Ability to apply discounts or promo codes.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Checkout:
-Simple interface to enter shipping details, select payment methods, and review the order.
-Order Confirmation:
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-Displays order details, estimated delivery date, and tracking info.
-Thank you message and order ID.
+## Learn More
 
-Sanity CMS:
+To learn more about Next.js, take a look at the following resources:
 
-Manage detailed product info (name, price, images, etc.) and categories.
-Category Management:
-  Categorize products for easy navigation (e.g., Living Room, Bedroom).
-  Allow adding new categories.
-  
-Order Management:
-Track order status (pending, shipped, delivered) and manage payment and shipment details.
-Third-Party APIs
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Payment Gateway:
-Integration with Stripe or PayPal for secure transactions.
-Shipment Tracking:
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-Integration with AfterShip or a local courier API for real-time shipment tracking.
+## Deploy on Vercel
 
-II. System Architecture Plan../
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-[Frontend (Next.js)]  
-     |
-     v  
-[Sanity CMS]  
-     |
-     v  
-[Product Data API]  
-     |
-     v  
-[Third-Party APIs]  
-    |-- Shipment Tracking API  
-    |-- Payment Gateway  
-    
-Frontend: Built using Next.js for better performance and SEO.
-Sanity CMS: Central content repository for product and order management.
-Product Data API: Fetches product info from Sanity CMS.
-Third-Party APIs: Payment processing (Stripe/PayPal) and shipment tracking (AfterShip).
-
-III. API Requirements
-Fetch Products..........
-
-Endpoint: /products
-Method: GET
-Purpose: Get product details (name, price, dimensions).
-Fetch Categories
-
-Endpoint: /categories
-Method: GET
-Purpose: Get product categories (e.g., Living Room).
-Search Product
-
-Endpoint: /search
-Method: GET
-Purpose: Get products based on search queries.
-Add to Cart
-
-Endpoint: /cart/add
-Method: POST
-Purpose: Add items to the cart.
-Track Shipment
-
-Endpoint: /shipment
-Method: GET
-Purpose: Get real-time shipment status.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
